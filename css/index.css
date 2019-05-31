@@ -73,6 +73,49 @@ p {
     margin: 0 auto;
 }
 
+header {
+	width: 100%;
+	display: flex;
+}
+
+.static-navbar {
+	top: 0;
+	width: 100%;
+	z-index: 5;
+}
+.top-nav {
+    margin-top: 5px; 
+	width: 100%;
+	justify-content: space-between;
+	display: flex;
+
+}
+.navigation{
+	display: flex;
+	padding: 10px;
+	margin: 45px 0 0 40px;
+    justify-content: Space-evenly;
+    font-size: 14px;
+}
+
+nav .logo {
+    margin: 24px 0 10px 0px;
+}
+header nav a{
+    text-decoration: none;
+    color: black;
+}
+header nav a:hover {
+	text-decoration: underline;
+	color: grey;
+}
+
+
+/*Home Page*/
+.header-image {
+    padding: 20px 0 20px 0;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -158,6 +201,8 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+/*end of Home Page */
 
 footer {
     width: 100%;
