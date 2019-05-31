@@ -204,6 +204,8 @@ header nav a:hover {
 
 /*end of Home Page */
 
+/*footer nav for both*/
+
 footer {
     width: 100%;
     background: black;
@@ -221,4 +223,23 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/*about page*/
+
+.container-about-page{
+	width: 880px;
+	margin:auto;
+}
+
+.about-body{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content: space-between;
+}
+.information-box {
+	padding: 20px;
+	border-bottom: 1px dashed black;
+	width: 420px;
+	margin: 20px 0;
 }
