@@ -250,7 +250,50 @@ button {
     padding: 20px 10px 15px 10px;
 }
 
-/*footer nav for both*/
+
+/* contact page with form */
+.container-contact-page{
+	width: 800px;
+	margin:auto;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px; /  
+    border: 1px solid grey;
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+  
+  input[type=submit] {
+    background-color: purple;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+
+  input[type=submit]:hover {
+    background-color: blueviolet;
+  }
+
+.container-contact-form {
+    border-radius: 5px;
+    background-color: #d9d1da;
+    padding: 20px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+
+/*footer nav*/
 
 footer {
     width: 100%;
@@ -270,4 +313,5 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
 
