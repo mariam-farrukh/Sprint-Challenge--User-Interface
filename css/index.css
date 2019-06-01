@@ -254,12 +254,36 @@ button {
 /* contact page with form */
 .container-contact-page{
 	width: 800px;
-	margin:auto;
+    margin:auto;
+}
+.contact-top {
+    padding-top: 30px;
+}
+#questions {
+    padding-left: 350px;
+    padding-right: 50px;
+}
+.address-box {
+    padding: 5px;
+    width: 220px;
+    margin: 10px 0 10px 46px;
+    border-right: 2px solid darkorchid;
+}
+address {
+	display:flex;
+	flex-wrap:wrap;
+    justify-content: space-evenly;
+    border-left: 2px solid darkorchid;
+
+}
+.contact-h {
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
 
 input[type=text], select, textarea {
     width: 100%;
-    padding: 12px; /  
+    padding: 12px;  
     border: 1px solid grey;
     border-radius: 4px; 
     box-sizing: border-box; 
@@ -287,9 +311,8 @@ input[type=text], select, textarea {
     border-radius: 5px;
     background-color: #d9d1da;
     padding: 20px;
-    width: 500px;
-    display: flex;
-    justify-content: center;
+    margin: 20px 150px 20px 150px;
+    height: 100%;
 }
 
 
